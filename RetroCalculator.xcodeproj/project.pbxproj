@@ -11,7 +11,9 @@
 		5B9AAB511EAA9866000C0B8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9AAB501EAA9866000C0B8D /* ViewController.swift */; };
 		5B9AAB541EAA9866000C0B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9AAB521EAA9866000C0B8D /* Main.storyboard */; };
 		5B9AAB561EAA9866000C0B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9AAB551EAA9866000C0B8D /* Assets.xcassets */; };
-		5B9AAB591EAA9866000C0B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9AAB571EAA9866000C0B8D /* LaunchScreen.storyboard */; };
+		5B9AAB631EAAA8C5000C0B8D /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B9AAB621EAAA8C5000C0B8D /* Minecraft.ttf */; };
+		5B9AAB651EAAAB35000C0B8D /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B9AAB641EAAAB35000C0B8D /* btn.wav */; };
+		5B9AAB671EAABE8C000C0B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9AAB661EAABE8C000C0B8D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +22,10 @@
 		5B9AAB501EAA9866000C0B8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B9AAB531EAA9866000C0B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B9AAB551EAA9866000C0B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5B9AAB581EAA9866000C0B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B9AAB5A1EAA9866000C0B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9AAB621EAAA8C5000C0B8D /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		5B9AAB641EAAAB35000C0B8D /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		5B9AAB661EAABE8C000C0B8D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,13 @@
 		5B9AAB4D1EAA9866000C0B8D /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				5B9AAB641EAAAB35000C0B8D /* btn.wav */,
+				5B9AAB621EAAA8C5000C0B8D /* Minecraft.ttf */,
 				5B9AAB4E1EAA9866000C0B8D /* AppDelegate.swift */,
 				5B9AAB501EAA9866000C0B8D /* ViewController.swift */,
 				5B9AAB521EAA9866000C0B8D /* Main.storyboard */,
+				5B9AAB661EAABE8C000C0B8D /* LaunchScreen.storyboard */,
 				5B9AAB551EAA9866000C0B8D /* Assets.xcassets */,
-				5B9AAB571EAA9866000C0B8D /* LaunchScreen.storyboard */,
 				5B9AAB5A1EAA9866000C0B8D /* Info.plist */,
 			);
 			path = RetroCalculator;
@@ -124,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9AAB591EAA9866000C0B8D /* LaunchScreen.storyboard in Resources */,
+				5B9AAB651EAAAB35000C0B8D /* btn.wav in Resources */,
 				5B9AAB561EAA9866000C0B8D /* Assets.xcassets in Resources */,
+				5B9AAB671EAABE8C000C0B8D /* LaunchScreen.storyboard in Resources */,
+				5B9AAB631EAAA8C5000C0B8D /* Minecraft.ttf in Resources */,
 				5B9AAB541EAA9866000C0B8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +159,6 @@
 				5B9AAB531EAA9866000C0B8D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5B9AAB571EAA9866000C0B8D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B9AAB581EAA9866000C0B8D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
